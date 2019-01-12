@@ -10,7 +10,7 @@ import ap.springframework.services.GreetingService;
 public class PropertyInjectedController {
 
 	@Autowired
-	//@Qualifier("greetingServiceImpl")
+	@Qualifier("greetingServiceImpl")
 	// naming variable name like class name Spring resolve and Inject the right dependency
 	// BUT @Qualifier is bettetr !!!! do not use name reflection
 	public GreetingService greetingServiceImpl; 

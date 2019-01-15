@@ -5,7 +5,7 @@ import static org.junit.Assert.assertEquals;
 import org.junit.Before;
 import org.junit.Test;
 
-import guru.services.GreetingServiceImpl;
+import guru.springframework.services.GreetingServiceImpl;
 
 /**
  * Created by jt on 5/24/17.
